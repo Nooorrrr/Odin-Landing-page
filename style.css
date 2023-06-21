@@ -1,12 +1,14 @@
 body{
     padding: 0;
     margin: 0;
+
+
 }
 .header{
     display: flex;
     align-items: center;
     background-color: #1f2937;
-    color:white;
+    color:#F9FAF8;
     
 }
 .the{
@@ -22,6 +24,39 @@ ul{
 }
 
 a{
+    font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: #E5E7Eb;
+    font-weight: 300;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.small{
+    color:#E5E7Eb;
+}
+
+.btn1{
+    background-color: #3882F6;
+    border: none;
+}
+
+.img{
+    background-color: grey;
+}
+
+.leftside{
+    display: flex;
+    flex-direction: column;
 }
