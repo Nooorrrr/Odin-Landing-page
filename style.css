@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
 
 
 *{
-   font-family: Roboto sans-serif;
    
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -40,7 +40,7 @@ body{
 }
 .the{
     
-    font-weight: 900;
+    font-weight: 700;
     font-size: 24px;
 }
 ul{
@@ -54,7 +54,7 @@ a{
     font-size: 18px;
     text-decoration: none;
     color: #E5E7Eb;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .hero{
@@ -62,59 +62,71 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    height:400px;
 }
 
 .subhero{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+    
 }
 
 .main{
     color: #F9FAF8;
     font-weight: 700;
     font-size: 48px;
+    margin-bottom: 32px;
 }
 
 .small{
     color:#E5E7Eb;
+    max-width: 500px;
+    
 }
 
 .btn1{
+
     background-color: #3882F6;
+    color: #F9FAF8;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-    padding: 4px 16px;
+    padding: 8px 48px;
+    margin-top: 25px;
+    font-size: 16px;
 }
 
 .img{
     height: 200px;
-    width: 250px;
-    flex: 1;
+    width: 500px;   
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: grey;
+    color: #F9FAF8;
 }
 
 .leftside{
     display: flex;
-    flex: 1;
+    flex-shrink: 1;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 300px;
-
 }
 
 .testa{
     text-align: center;
     background-color: #E5E7Eb;
     font-size: 36px;
+    padding: 75px 100px;
 }
 
 .author{
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 325px;
 }
 
 .contact{
@@ -126,7 +138,6 @@ a{
 .sign{
     border-radius: 0.25rem;
     color: white;
-    
     border:solid white;
     background-color: #3882F6;
     cursor: pointer;
@@ -143,7 +154,7 @@ a{
 }
 
 .title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     margin-bottom: 32px;
     
@@ -154,6 +165,7 @@ a{
     width: 100px;
     border:solid #3882F6;
     border-radius: 0.625rem;
+    margin-bottom: 16px;
 }
 .flo{
     display: flex;
@@ -163,10 +175,11 @@ a{
 
 .info{
     text-align: center;
-    padding: 24px ;
+    padding: 24px 100px ;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding: 75px 100px;
   }
   .flo1,.flo2,.flo3,.flo4{
     max-width: 200px;
@@ -179,12 +192,13 @@ a{
     color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    margin-right: 50px;
 }
 
 .bigi{
     padding: 0;
     margin: 0;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .mini{
